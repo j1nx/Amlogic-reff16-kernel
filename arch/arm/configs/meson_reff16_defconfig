@@ -829,7 +829,7 @@ CONFIG_EFUSE=y
 #
 # Amlogic Watchdog Timer Support
 #
-# CONFIG_AML_WATCHDOG is not set
+CONFIG_AML_WATCHDOG=y
 
 #
 # Amlogic BOOT MONITOR SYSFS
