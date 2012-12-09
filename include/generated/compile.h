@@ -1,7 +1,7 @@
-/* This file is auto generated, version 5 */
+/* This file is auto generated, version 1 */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#5 Tue Dec 4 14:20:24 UTC 2012"
-#define LINUX_COMPILE_TIME "14:20:24"
+#define UTS_VERSION "#1 Sun Dec 9 23:33:53 UTC 2012"
+#define LINUX_COMPILE_TIME "23:33:53"
 #define LINUX_COMPILE_BY "root"
 #define LINUX_COMPILE_HOST "DataServer"
 #define LINUX_COMPILE_DOMAIN

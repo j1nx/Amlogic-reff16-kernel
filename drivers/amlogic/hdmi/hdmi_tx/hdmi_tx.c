@@ -822,88 +822,88 @@ static int hdmitx_notify_callback_a(struct notifier_block *block, unsigned long 
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
     
-        hdmi_print(1, "HDMI: aout notify rate %d\n", substream->runtime->rate);
-        hdmi_print(1, "HDMI: aout notify format PCM\n");
+        //hdmi_print(1, "HDMI: aout notify rate %d\n", substream->runtime->rate);
+        //hdmi_print(1, "HDMI: aout notify format PCM\n");
         break;
     case AOUT_EVENT_RAWDATA_AC_3:
         audio_param->type = CT_AC_3;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format AC-3\n");
+        //hdmi_print(1, "HDMI: aout notify format AC-3\n");
         break;
     case AOUT_EVENT_RAWDATA_MPEG1:
         audio_param->type = CT_MPEG1;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format MPEG1(Layer1 2)\n");
+        //hdmi_print(1, "HDMI: aout notify format MPEG1(Layer1 2)\n");
         break;
     case AOUT_EVENT_RAWDATA_MP3:
         audio_param->type = CT_MP3;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format MP3(MPEG1 Layer3)\n");
+        //hdmi_print(1, "HDMI: aout notify format MP3(MPEG1 Layer3)\n");
         break;
     case AOUT_EVENT_RAWDATA_MPEG2:
         audio_param->type = CT_MPEG2;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format MPEG2\n");
+        //hdmi_print(1, "HDMI: aout notify format MPEG2\n");
         break;
     case AOUT_EVENT_RAWDATA_AAC:
         audio_param->type = CT_AAC;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format AAC\n");
+        //hdmi_print(1, "HDMI: aout notify format AAC\n");
         break;
     case AOUT_EVENT_RAWDATA_DTS:
         audio_param->type = CT_DTS;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format DTS\n");
+        //hdmi_print(1, "HDMI: aout notify format DTS\n");
         break;
     case AOUT_EVENT_RAWDATA_ATRAC:
         audio_param->type = CT_ATRAC;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format ATRAC\n");
+        //hdmi_print(1, "HDMI: aout notify format ATRAC\n");
         break;
     case AOUT_EVENT_RAWDATA_ONE_BIT_AUDIO:
         audio_param->type = CT_ONE_BIT_AUDIO;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format One Bit Audio\n");
+        //hdmi_print(1, "HDMI: aout notify format One Bit Audio\n");
         break;
     case AOUT_EVENT_RAWDATA_DOBLY_DIGITAL_PLUS:
         audio_param->type = CT_DOLBY_D;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
         //audio_param->sample_rate = FS_48K;//192K;      // FS_48K;       //
-        hdmi_print(1, "HDMI: aout notify format Dobly Digital +\n");
-        printk("audio sample_rate: %d\n", substream->runtime->rate);
+        //hdmi_print(1, "HDMI: aout notify format Dobly Digital +\n");
+        //printk("audio sample_rate: %d\n", substream->runtime->rate);
         break;
     case AOUT_EVENT_RAWDATA_DTS_HD:
         audio_param->type = CT_DTS_HD;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format DTS-HD\n");
+        //hdmi_print(1, "HDMI: aout notify format DTS-HD\n");
         break;
     case AOUT_EVENT_RAWDATA_MAT_MLP:
         audio_param->type = CT_MAT;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format MAT(MLP)\n");
+        //hdmi_print(1, "HDMI: aout notify format MAT(MLP)\n");
         break;
     case AOUT_EVENT_RAWDATA_DST:
         audio_param->type = CT_DST;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format DST\n");
+        //hdmi_print(1, "HDMI: aout notify format DST\n");
         break;
     case AOUT_EVENT_RAWDATA_WMA_PRO:
         audio_param->type = CT_WMA;
         audio_param->channel_num = CC_2CH;
         audio_param->sample_size = SS_16BITS; 
-        hdmi_print(1, "HDMI: aout notify format WMA Pro\n");
+        //hdmi_print(1, "HDMI: aout notify format WMA Pro\n");
         break;
     default:
         break;
